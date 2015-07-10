@@ -2,7 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "bio-container": "github:herkulano/bio-container@0.0.7",
+      "bio-container": "github:biojs/bio-container@0.0.5",
       "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2"
     },
     "devDependencies": {

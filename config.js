@@ -16,16 +16,16 @@ System.config({
   "map": {
     "babel": "npm:babel-core@5.6.17",
     "babel-runtime": "npm:babel-runtime@5.6.17",
-    "bio-container": "github:herkulano/bio-container@0.0.7",
+    "bio-container": "github:biojs/bio-container@0.0.5",
     "core-js": "npm:core-js@0.9.18",
     "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2",
-    "github:herkulano/bio-container@0.0.7": {
-      "bio-element": "github:herkulano/bio-element@0.0.9",
+    "github:biojs/bio-container@0.0.5": {
+      "bio-element": "github:biojs/bio-element@0.0.3",
       "html": "github:Hypercubed/systemjs-plugin-html@master",
       "polymer": "github:greenify/polymer-js@1.0.5",
       "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2"
     },
-    "github:herkulano/bio-element@0.0.9": {
+    "github:biojs/bio-element@0.0.3": {
       "html": "github:Hypercubed/systemjs-plugin-html@master",
       "polymer": "github:greenify/polymer-js@1.0.5",
       "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2"
@@ -43,3 +43,4 @@ System.config({
     }
   }
 });
+
