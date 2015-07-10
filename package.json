@@ -2,7 +2,8 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "bio-container": "github:herkulano/bio-container@0.0.5"
+      "bio-container": "github:herkulano/bio-container@0.0.7",
+      "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
