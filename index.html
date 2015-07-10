@@ -3,9 +3,6 @@
 
 <head>
     <title>Polymer and ES6 Modules</title>
-    <script src="./jspm_packages/es6-module-loader.js"></script>
-    <script src="./jspm_packages/system.js"></script>
-
     <style>
         body {
             font-family: sans-serif;
@@ -24,28 +21,13 @@
 
 <body>
     <div class="hello">Loading a web component with SystemJS</div>
+    <bio-container>bio-container</bio-container>
 
-    <bio-element>element</bio-element>
-
-    <hr>
-
-    <bio-container>container</bio-container>
-
+    <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
-
     <script>
-    	// TODO: add better check against web component support
-        // only load the polyfill if we really need it
-        // for some reasons window.WebComponents is undefined in Chrome
-		var wcSupported = (typeof HTMLTemplateElement !== 'undefined') && (typeof WeakMap !== 'undefined');
-        var ready = Promise.resolve();
-        if (!wcSupported) {
-            console.log("Your are using an outdated browser. Please upgrade!");
-            ready = System.import('webcomponents-lite');
-        }
-        ready.then(function() {
-            System.import('bio-container');
-        });
+      // removed WebComponents support check for clarity
+    	System.import('bio-container');
     </script>
 
 </body>
