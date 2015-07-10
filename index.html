@@ -25,6 +25,10 @@
   <div class="hello">Loading a web component with SystemJS</div>
   <bio-container>bio-container</bio-container>
 
+  <hr>
+
+  <bio-element-vanilla>Vanilla content</bio-element-vanilla>
+
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
   <script>
@@ -49,6 +53,9 @@
 
       // Import elements
       System.import('bio-container');
+
+      // experiment to import Web Components without Angular
+      System.import('bio-element-vanilla');
     }
   </script>
 
