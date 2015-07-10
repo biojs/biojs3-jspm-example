@@ -3,6 +3,7 @@
     "directories": {},
     "dependencies": {
       "bio-container": "github:biojs/bio-container@0.0.5",
+      "bio-element-vanilla": "github:biojs/bio-element-vanilla@^0.0.1",
       "webcomponentsjs-lite": "github:webcomponents/webcomponentsjs@0.7.2"
     },
     "devDependencies": {
